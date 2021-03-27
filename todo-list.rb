@@ -1,4 +1,4 @@
-class Repository
+class TodoList
   def initialize
     @tasks = []
   end
