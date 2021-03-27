@@ -1,5 +1,5 @@
 class Task
-  attr_reader :done, :title
+  attr_reader :title
 
   def initialize(title)
     @done = false
@@ -8,5 +8,9 @@ class Task
 
   def mark_as_done!
     @done = true
+  end
+
+  def done?
+    @done
   end
 end
